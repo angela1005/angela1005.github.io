@@ -7,11 +7,56 @@
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
 </head>
 <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-target="#my-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a href="" class="navbar-brand">
+                    TheGymPod
+                </a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="my nav">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="">About Us</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav">
+                        <li>
+                            <a href="">Product</a>
+                        </li>
+                </ul>
+                
+                <ul class="nav navbar-nav">
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                </ul>
+
+            
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="general_spacing"></div>
+
     <div class="container">
         
         <div class="row">
@@ -29,7 +74,7 @@
 
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="flower.JPG" class="my_img" alt="">
+                    <img src="flower.JPG" class="my_img" alt="not found">
                     <div class="caption">
                         <h3>Title</h3>
                         <p>
@@ -45,7 +90,7 @@
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                            <img src="flower2.png" class="my_img" alt="">
+                            <img src="flower2.png" class="my_img" width="400" alt="">
                             <div class="caption">
                                 <h3>Type</h3>
                                 <p>
@@ -84,32 +129,166 @@
         </div>
 
         <div class="row">
-                <div class="col-md-4">
-                        row 4 col 1
-                    </div>
-                    <div class="col-md-4">
-                        row 4 col 2>
+                <div class="col-md-6">
+
+                    <h2>Sign Up Here</h2>
+                    <hr>
+
+                    <form action="">
+
+                        <legend>Sign Up Here</legend>
+
+                        <div class="form-group">
+                            <label for="">Fullname</label>
+                            <input type="text" name="" id="" class="form-control" placeholder="Input your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="" name="" id="" class="form-control" placeholder="angela@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="radio">
+                                <label for="">
+                                    <input type="radio" name="newsletter" id=""> Send me newsletter
+                                </label>
+                            </div>
+
+
+                            <div class="radio">
+                                <label for="">
+                                    <input type="radio" name="newsletter" id=""> Don't send me newsletter
+                                </label>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="SEND" class="tn btn-primary">
+                        </div>
+
+                    </form>
+                    
+                </div>
+                    <div class="col-md-6 text-center">
+
+                        <h2>List of Properies</h2>
+                        <hr>
+                        <p>
+                            District 9
+                            District 10
+                            District 11
+                        </p>
+                        
                     </div>
         </div>
 
-        <div class="row">
+        <div class="row my_margin_bottom">
 
+                    <div class="col-md-4">
+                        <h3 class="text-center">Opening Hours</h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Day
+                                    </th>
+                                    <th>
+                                        Hours
+                                    </th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Monday to Thursday
+                                    </td>
+                                    <td>
+                                        9am - 5pm
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>
+                                        Friday and Saturday
+                                    </td>
+                                    <td>
+                                        11am - 3am
+                                    </td>
+                                </tr>
+                                    
+                                <tr>
+                                    <td>
+                                        Sunday
+                                    </td>
+                                    <td>
+                                        closed
+                                    </td>    
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
                 <div class="col-md-4">
-                    row 5 col 1
-                </div>
-                <div class="col-md-4">
-                    row 5 col 2>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7954537830024!2d103.7853097499437!3d1.2974177620993719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fdcdcb793%3A0x560828fd88f7aa6!2sJTC+Launchpad!5e0!3m2!1sen!2ssg!4v1543632874555" class="embed-responsive-item" >
+                        </iframe>
+                    </div>
     
                 </div>
                 <div class="col-md-4">
-                    row 5 col 3>
+                    <h3>Contact Us</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="tel: +6596665602" class="my_link my_link">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp; +65 96665602
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="angela_wong8@yahoo.com.sg">
+                                <i class="fa fa-envelope" aria-hidden="true"></i> angela@gmail.com
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                                <i class="fa fa-instagram" aria-hidden="true"></i> angela
+                        </li>                    
+                    </ul>
+
                 </div>
         </div>
 
         <div class="row">
 
-                <div class="col-md-12">
-                    row 6 col 1
+                <div class="col-md-12 text text-center">
+
+                    <div class="my_margin_bottom"></div>
+
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://angela1005.github.io/Day%204/index.html">
+                                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://angela1005.github.io/Day%204/index.html">
+                                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://angela1005.github.io/Day%204/index.html">
+                                <i class="fa fa-twitter fa-2x my_icon_color" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    
                 </div>
         </div>
 

@@ -7,6 +7,14 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.my_icon_color {
+    color: red;
+}
+
+.my_margin_bottom {
+    margin-bottom: 30px;
+}
+
 .my_img {
     height: 300px!important;
 }
@@ -30,4 +38,16 @@ h1 {
 
 .my-btn-info {
     background-color: deeppink;
+}
+
+.my_link:hover {
+    text-decoration: none;
+}
+
+.my_link {
+    color: red;
+}
+
+.general_spacing {
+    margin-bottom: 100px;
 }
